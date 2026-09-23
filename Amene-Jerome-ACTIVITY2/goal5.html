@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        .teal-box {
+            border: 10px solid black;
+            height: 240px;
+            width: 240px;
+            padding: 20px;
+            background: rgb(75, 155, 140);
+            color: black;
+        }
+
+        
+        
+        .yellow-box {
+            border-top: 20px solid black;
+            border-bottom: 20px solid black;
+            border-left: 10px solid black;
+            border-right: 10px solid black;
+            margin-left: 240px;      
+            height: 224px;
+            width: 224px;
+            background: rgb(255, 215, 0);
+        }
+
+        
+        
+        .red-box {
+            border: 10px solid black;
+            margin-left: 56px;       
+            height: 224px;
+            width: 224px;
+            background: rgb(187, 72, 88);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="teal-box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Aliquam at sapien porttitor urna elementum lacinia. In id
+           magna pulvinar, ultricies lorem id, vehicula elit.
+           Aliquam eu luctus nisl, vitae pellentesque magna.</p>
+    </div>
+
+    
+    <div class="yellow-box"></div>
+
+    
+    <div class="red-box"></div>
+</body>
+</html>
